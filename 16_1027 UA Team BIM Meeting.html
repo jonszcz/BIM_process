@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title></title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/Black.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="under-armour-bcj-bim-meeting" class="slide level1">
+<h1>Under Armour: BCJ BIM Meeting</h1>
+<p>Thurs 27 October 2016 1300 EST</p>
+</section>
+<section id="purpose" class="slide level1">
+<h1>Purpose</h1>
+<p>To get the entire team on the same page with respect to the direction that the BIM process is taking. I’d also like to use this as a forum for people to air any issues with the models, outline best practices for upcoming tasks, discuss current issues that anyone is having with modeling or the models.</p>
+</section>
+<section id="agenda" class="slide level1">
+<h1>Agenda</h1>
+<ol type="1">
+<li>Review current model breakdown and locations.</li>
+<li>Review ‘standards’ information that has been created to date</li>
+<li>Naming conventions for Groups and Design Options</li>
+<li>Wall Naming standards</li>
+<li>Discuss any issues with the performance or function of the current model setup.</li>
+<li>Discuss any situations that people are having difficulty modeling, managing or documenting</li>
+<li>Upcoming tasks that people have questions about.</li>
+</ol>
+</section>
+<section id="current-documents" class="slide level1">
+<h1>Current Documents</h1>
+<section id="information-created-to-date" class="level2">
+<h2>Information Created to date</h2>
+<ol type="1">
+<li><a href="P:\2016\16201%20UA%20Phase%2001\1%20Management\1.4%20Agreements\4D%20CAD%20BIM">BIM Execution Plan (BXP)</a></li>
+<li><a href="P:\2016\16201%20UA%20Phase%2001\3%20Drawing\3.2%20Revit\3.2G%20Guides">Project Reference Manual</a>
+<ul>
+<li>Revit Maintenance Guide</li>
+<li>Revit User Guide</li>
+<li>Revit Model Organization and Setup</li>
+<li>Model Use Org Chart</li>
+<li>Workset Organization</li>
+</ul></li>
+</ol>
+</section>
+</section>
+<section id="naming-conventions" class="slide level1">
+<h1>Naming Conventions</h1>
+<section id="model-groups" class="level2">
+<h2>Model Groups</h2>
+<ol type="1">
+<li>Needs to be more descriptive than <code>Group 1</code>.</li>
+<li>Try to describe what the Group is used for <code>Tower Shell - Typ 30' Bay</code></li>
+</ol>
+</section>
+<section id="wall-naming-standards" class="level2">
+<h2>Wall Naming Standards</h2>
+<ol type="1">
+<li>The DesignTech group is in the process of finalizing a wall naming standard that is more human-readable than the current standard.
+<ol type="1">
+<li>UA will be using this.</li>
+<li></li>
+</ol></li>
+</ol>
+</section>
+</section>
+<section id="design-options" class="slide level1">
+<h1>Design Options</h1>
+<section id="example" class="level2">
+<h2>Example</h2>
+<p>A notch in the exterior wall will require the following</p>
+<ul>
+<li>The exterior wall needs to be modified in the <code>Shell</code> model</li>
+<li>The slab edge needs to be adjusted in the <code>Structure</code> model</li>
+<li>The interior partitions need to be adjusted in the <code>Core</code> model.</li>
+</ul>
+</section>
+<section id="solution" class="level2">
+<h2>Solution</h2>
+<p>All three of these models should have a design option set called <code>Exterior Notch</code>. The primary options should be <code>No Notch</code> and one Design Option could be <code>2' Deep Notch</code>.</p>
+<p><em>If we had a spreadsheet to outline the Design Options and attempted to unify and track the naming and scope of the design option studies would that be used?</em></p>
+</section>
+</section>
+<section id="model-performance" class="slide level1">
+<h1>Model Performance</h1>
+<p>What performance issues are we seeing?</p>
+</section>
+<section id="issues" class="slide level1">
+<h1>Issues</h1>
+<p>What modeling or management crisis can we tackle today?</p>
+</section>
+<section id="upcoming-tasks" class="slide level1">
+<h1>Upcoming Tasks</h1>
+<p>What’s the next deliverable? What’s due? <em>HOW</em> are you doing it?</p>
+</section>
+<section id="open-floor" class="slide level1">
+<h1>Open Floor</h1>
+</section>
+<section class="slide level1">
+
+<p>fin.</p>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
