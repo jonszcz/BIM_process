@@ -1,2 +1,2 @@
-# UA_BIM
-BCJ documents for structuring the UA BIM process.
+# BIM
+BCJ documents for structuring the BIM process.
